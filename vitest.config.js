@@ -20,6 +20,7 @@ export default defineProject({
           include: ["test/**/*.{test,spec}.?(c|m)[jt]s?(x)"],
           isolate: true,
           browser: {
+            ui: false,
             enabled: true,
             instances: [
               {
@@ -27,7 +28,7 @@ export default defineProject({
               },
             ],
             provider: playwright(),
-            headless: true,
+            // headless: true,
             screenshotFailures: false,
             locators: {
               testIdAttribute: "data-test-id",
