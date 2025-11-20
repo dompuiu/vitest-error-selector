@@ -1,0 +1,17 @@
+{
+  "name": "vitest-error",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --project=integration"
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.45.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "@vitest/browser-playwright": "4.0.9",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vitest": "4.0.9",
+    "vitest-browser-react": "^2.0.2"
+  }
+}
